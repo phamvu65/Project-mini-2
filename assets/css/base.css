@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --color-two: #FF589E;
+    --color-one: #8F5EE4;
+    --color-text: #1e1e1e;
+    --bg-1: #F2F2FE;
+    --bg-2: #DCE8EB;
+
+    --font: "Raleway", sans-serif;
+}
+
+body {
+    color: var(--color-text);
+    line-height: 1.6;
+    font-family: var(--font);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+a:hover {
+    color:var(--color-two) ;
+    text-decoration: none;
+}
+
+/* Button */
+.button{
+    font-size: 13px;
+    font-weight: 500px;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 45px;
+    color: var(--color-text);
+    background-color: #F2F2FE;
+}
+.button-two{
+    background-color: var(--color-two);
+    color: #fff;
+}
+.button-two:hover{
+    background-color: var(--color-one);
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.button-one{
+    background-color: var(--color-one);
+    color: #fff;
+}
+.button-one:hover{
+    background-color: var(--color-two);
+    color: #fff;
+}
+/* Button */
+
+/* Box head */
+.box-head{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box-head .inner-title{
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.box-head .inner-desc{
+    font-size: 14px;
+    margin-top: 10px;
+}
+/* End Box head */
